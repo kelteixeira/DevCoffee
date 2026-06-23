@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevCoffee | Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>DevCoffee</h1>
+        <h3 class="slogan">Café • Pausa • Tecnologia</h3>
+        <ul>
+            <li><a class="menu" href="index.html">Início</a></li>
+            <li><a class="menu" href="cardapio.html">Cardápio</a></li>
+            <li><a class="menu" href="sobre.html">Sobre nós</a></li>
+            <li><a class="menu" href="contato.html">Contato</a></li>
+        </ul>
+    </header>
+    <main>
+      <form action="" method="post">
+        <fieldset>
+            <legend>
+                Solicitar Reserva
+            </legend>
+            <div class="form-grid">
+                <label for="nome-completo">Nome Completo: </label>
+                <input type="text" name="nome"
+                id="nome-completo" placeholder="Maria Oliveira" required :focus>
+            </div>
+            <div class="form-grid">
+                <label for="email">Email: </label>
+                <input type="email" name="email"
+                id="email" placeholder="maria@teste.com" required :focus>
+            </div>
+            <div class="form-grid">
+                <label for="data-reserva">Data da Reserva: </label>
+                <input type="date" name="data" 
+                id="data-reserva" required :focus>
+            </div>
+            <div class="form-grid">
+                <label for="qtd-pessoas">Quantidade de Pessoas: </label>
+                <input type="number" min="1" max="20" 
+                id="qtd-pessoas" placeholder="0" required :focus>
+            </div>
+            <div class="form-grid">
+                <label for="telefone">Telefone: </label>
+                <input type="tel" 
+                id="telefone" placeholder="(00) 0000-0000" required :focus>
+            </div>
+            <div class="grid-solo">
+                <label for="mensagem">Mensagem: </label>
+                <input type="text" 
+                id="mensagem" placeholder="Mensagem/Observação" :focus>
+            </div>
+            <button type="submit" class="grid-solo">Confirmar Reserva</button>
+        </fieldset>
+      </form>
+     </main>
+    <footer>
+        <p>© 2026 DevCoffee.</p> 
+        <p>Aberto todos os dias das 8h às 20h.</p>
+    </footer>
+</body>
+</html>

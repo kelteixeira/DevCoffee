@@ -1,0 +1,140 @@
+body { 
+    background-color: #e8e1d5; 
+    font-family: "cambria", serif;
+    color: #4c362d;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #a46447;
+    text-align:center;
+    padding: 30px 0 35px;
+    border-bottom: 4px solid #8c5b43;
+}
+.slogan {
+    font-size: 16px;
+    font-style: italic;
+    color:#ceb59e;
+    margin-bottom: 0, 0, 20px, 0;
+}
+header h1 {
+    color: #ceb59e;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 50px;
+    font-family: "ZT nature";
+}
+h2 {
+    border-bottom: 2px solid #4c362d;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    color: #a46447;
+    justify-content: center;
+    padding: 10px 0 0 0;
+    margin: 0 auto;
+}
+.menu:hover {
+    color: #e8e1d5;
+}
+a {
+    color: #ceb59e
+}
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.lista-cafes {
+    border-left: 5px solid #88937b;
+    padding-left: 10px;
+    list-style: none;
+}
+.produto {
+    border: 1px solid #88937b;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #ceb59e;
+}
+.imagem {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+header ul li a {
+    text-decoration: none;
+    color: #a46447;
+    background-color: #ceb59e;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+input, textarea {
+    border: 1px solid #88937b;
+    border-radius: 10px;
+    padding: 10px;
+}
+:focus {
+    border-color: #a46447;
+    outline: none;
+}
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+}
+.grid-solo {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 10px
+}
+.grid-solo input {
+    width: 100%;
+    box-sizing: border-box;
+}
+button {
+    justify-content: center;
+    border: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: #a46447;
+    grid-template-columns: auto 1fr;
+    justify-self: center;
+    margin-top: 20px;
+    background-color:#a46447;
+    color: #e8e1d5;
+}
+.grid-solo:hover {
+    color:#4c362d;
+}
+@media (max-width: 768px) {
+    .form-grid .grid-solo {
+        grid-template-columns: 1fr;
+    }
+    .menu {
+        padding: 8px 12px;
+        font-size: 12px;
+        white-space: nowrap;
+    }
+    header ul {
+        gap: 6px;
+        padding: 10px 0;
+    }
+    h1 {
+        font-size: 42px;
+    }
+    .slogan {
+        font-size: 18px
+    }
+}
