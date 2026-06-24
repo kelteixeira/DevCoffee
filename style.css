@@ -14,19 +14,21 @@ header {
     background-color: #a46447;
     text-align:center;
     padding: 30px 0 35px;
-    border-bottom: 4px solid #8c5b43;
+    background-image: url('capa.png');
+    background-size: cover;
+    background-position: center;
 }
 .slogan {
     font-size: 16px;
     font-style: italic;
-    color:#ceb59e;
+    color:#e8e1d5;
     margin-bottom: 0, 0, 20px, 0;
 }
-header h1 {
+ h1 {
     color: #ceb59e;
     margin-bottom: 0;
     padding: 0;
-    font-size: 50px;
+    font-size: 70px;
     font-family: "ZT nature";
 }
 h2 {
@@ -87,6 +89,7 @@ input, textarea {
 :focus {
     border-color: #a46447;
     outline: none;
+    margin: 50px 0 50px;
 }
 .form-grid {
     display: grid;
